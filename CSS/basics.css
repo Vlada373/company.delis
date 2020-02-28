@@ -1,0 +1,96 @@
+/*Basics CSS*/
+body{
+	margin:10px 0;
+	color: #2e2c03;
+	background:#E9967A;
+	padding: 0;
+	font: 0.86em/1.6 Arial, Helvetica, sans-serif;
+}
+h1{
+	font-size:1.5em;
+}
+h2{
+	font-size:1.3em:
+}
+ul {
+    padding: 0; /* Убираем поля */
+    margin-left: 15px; /* Отступ слева */
+   }
+#outer{
+	width:650px;
+	margin: 0 auto:
+	background: #fff url(../img/bg.gif) no-repeat;
+}
+
+#hdr {
+	padding-top:125px;
+	background:#fff url(../img/slider.jpg) no-repeat;
+}
+#hdr h1{
+	color: #fff;
+	background:#B7734B;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 1em;
+	border: solid #000000;
+	border-bottom-width: 1px 0 1px 0;
+}
+#nav{
+	float:left;
+	width: 125px;
+	 height: 100%;
+	padding:1em;
+	padding-bottom:25px;
+	text-align:left;
+	padding-right:10px;
+	border: 6px double black;
+	border-right-color: black;
+	background-color:#f5dabf ;
+}
+#ftr{
+	clear: both;
+	color: #2e2c03;
+	background:#B7734B;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #000;
+	margin: 1em 0 0 0:
+}
+#cont{
+	float:right;
+	width:440px;
+height: 100%;
+	padding:22px;
+		padding-bottom:25px;
+	border: 2px double black;
+	border-right-color: black;
+	background-color:#cccbba;
+	
+}
+#cont h2{
+	color:#2e2c03;
+}
+#leftImg {
+	float:right;
+	width:125px;
+	height:93px;
+	padding:10px  5px 5px 10px ;
+}
+#center-img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+	height: 100px;
+  
+}
+#sub{
+	float:left;
+	width: 100px;
+	padding:1em;
+	text-align:left;
+	padding-bottom: 10px;
+	background:white;
+}
